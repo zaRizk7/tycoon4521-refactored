@@ -80,13 +80,13 @@ P.S. File and folder naming here is N/A due to the multiple file structuring!
 <br>
 **You have in your storage:**
 <br>
-**0 silk**
+**0 Bronze**
 <br>
-**0 silver**
+**0 Silver**
 <br>
-**1 gold, bought at 500**
+**1 Gold, bought at 500**
 <br>
-**0 diamond**
+**0 Platinum**
 <br>
 **Thank you for your business. New price list has been issued.**
 <br>
@@ -95,13 +95,13 @@ P.S. File and folder naming here is N/A due to the multiple file structuring!
 <br>
 **Current commodity prices (bid/offer):**
 <br>
-**silk 115**
+**Bronze 115**
 <br>
-**silver 225**
+**Silver 225**
 <br>
-**gold 575**
+**Gold 575**
 <br>
-**diamond 600**
+**Platinum 600**
 <br>
 
 **[Day 6] What’s your command?** _quit_
