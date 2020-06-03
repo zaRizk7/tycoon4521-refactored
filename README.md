@@ -46,15 +46,15 @@ P.S. File and folder naming here is N/A due to the multiple file structuring!
 
 Some ideas of how interaction should look like (underlined texts are input):
 
-Welcome sir/mam, your name is? Rocky
-Rocky, as a startup, you’ve been given account 500. Trade wisely.
+**Welcome sir/mam, your name is?** _Rocky_
+**Rocky, as a startup, you’ve been given account 500. Trade wisely.**
 
-[Day 1] What’s your command? show catalog
-Current commodity prices:
+**[Day 1] What’s your command?** _show catalog_
+**Current commodity prices:
 silk 100
 silver 250
 gold 500
-diamond 1000
+diamond 1000**
 
 [Day 2] What’s your command? buy 1 gold
 Buying 1 gold bought at 500? yes
