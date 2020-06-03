@@ -23,7 +23,7 @@ You are going to build an interactive game called tycoon. The game follows the i
 ### Coding Rules:
 1. Follow the usual coding rules for labs and programming assignments!
 1. Folder/filename: tycoon####/tycoon####.go, where #### is the last 4 digits of your SID. eg. tycoon7563/tycoon7563.go
-P.S. File and folder naming here is N/A due to the multiple file structuring!
+**P.S. File and folder naming here is N/A due to the multiple file structuring!**
 
 ### Basic data and processes in the game are:
 1. Available commodities to trade are: Bronze, Silver, Gold, and Diamond.
