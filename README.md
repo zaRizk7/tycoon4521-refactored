@@ -47,38 +47,62 @@ P.S. File and folder naming here is N/A due to the multiple file structuring!
 #### Some ideas of how interaction should look like (italic texts are input):
 
 **Welcome sir/mam, your name is?** _Rocky_
+<br>
 **Rocky, as a startup, you’ve been given account 500. Trade wisely.**
-
+<br>
 **[Day 1] What’s your command?** _show catalog_
+<br>
 **Current commodity prices:**
+<br>
 **Bronze 100**
+<br>
 **Silver 250**
+<br>
 **Gold 500**
+<br>
 **Diamond 1000**
-
+<br>
 **[Day 2] What’s your command?** _buy 1 gold_
+<br>
 **Buying 1 gold bought at 500?** _yes_
-
+<br>
 **[Day 3] What’s your command?** _buy 1 silver_
+<br>
 **I am sorry, Rocky. You don’t have enough money.**
-
+<br>
 **[Day 4] What’s your command?** _show account_
+<br>
 **Your balance is 0**
+<br>
 **You have in your storage:**
+<br>
 **0 silk**
+<br>
 **0 silver**
+<br>
 **1 gold, bought at 500**
+<br>
 **0 diamond**
+<br>
 **Thank you for your business. New price list has been issued.**
-
+<br>
 **[Day 5] What’s your command?** _show catalog_
+<br>
 **Current commodity prices (bid/offer):**
+<br>
 **silk 115**
+<br>
 **silver 225**
+<br>
 **gold 575**
+<br>
 **diamond 600**
-
+<br>
 **[Day 6] What’s your command?** _quit_
+<br>
 **Rocky, we liquidate all your asset.**
+<br>
 **Your final asset value is 575.**
+<br>
 **Apparently you win.**
+<br>
