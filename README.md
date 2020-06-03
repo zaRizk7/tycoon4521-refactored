@@ -7,7 +7,7 @@ Problem:
 You are going to build an interactive game called tycoon. The game follows the idea of Taipan (https://en.wikipedia.org/wiki/Taipan!), which is a very popular game in 1980s. The player will take the role as a trader; buying, selling, travelling, looking for a better profit, etc.
 
 Basic Tasks :
-	Alternative B:
+Alternative B:
 1. The price should not change if the command “Show” is called.
 1. The price change should not be fixed at 25% up or 15% down, but in a range from 0-25% when up and 0-15% when down.
 
