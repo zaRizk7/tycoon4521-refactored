@@ -8,8 +8,8 @@ You are going to build an interactive game called tycoon. The game follows the i
 
 Basic Tasks :
 	Alternative B:
-	1. The price should not change if the command “Show” is called.
-	1. The price change should not be fixed at 25% up or 15% down, but in a range from 0-25% when up and 0-15% when down.
+1. The price should not change if the command “Show” is called.
+1. The price change should not be fixed at 25% up or 15% down, but in a range from 0-25% when up and 0-15% when down.
 
 Alternative C:
 (1) Every simulation day, there is cost of living of 1 currency unit. i.e. The account balance is deducted by 1 unit currency.
