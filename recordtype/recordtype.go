@@ -28,6 +28,13 @@ type Player struct {
 	DailyReport [constant.REPORTCOUNT]DailyReport
 }
 
+// Broker type,
+// Record type used to store broker that sells and buys item
+type Broker struct {
+	Name string
+	Item [constant.ITEMCOUNT]Item
+}
+
 // MenuCommand type,
 // Record type used to define commands
 type MenuCommand struct {

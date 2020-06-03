@@ -2,6 +2,7 @@ package constructor
 
 import (
 	"../constant"
+	"../helper"
 	"../recordtype"
 )
 
@@ -29,27 +30,40 @@ func DailyReport(balance int, day int) recordtype.DailyReport {
 // Player constructor
 func Player(name string) recordtype.Player {
 	var player recordtype.Player
+
 	var itemName string
+	var itemPrice int
 
 	player.Name = name
-	player.Balance = 0
+	player.Balance = 2000
 	player.ReportCount = 0
 
 	for i := 0; i < constant.ITEMCOUNT; i++ {
-		switch i {
-		case 0:
-			itemName = "Bronze"
-		case 1:
-			itemName = "Silver"
-		case 2:
-			itemName = "Gold"
-		case 3:
-			itemName = "Platinum"
-		}
-		player.Item[i] = Item(itemName, 0, 0)
+		itemName = helper.SetItemName(i)
+		itemPrice = helper.SetInitialPrice(i)
+		player.Item[i] = Item(itemName, itemPrice, 0)
 	}
 
 	return player
+}
+
+// Broker constructor
+func Broker(name string) recordtype.Broker {
+	var broker recordtype.Broker
+	var itemName string
+	var itemPrice int
+	var itemQuantity int
+
+	broker.Name = name
+
+	for i := 0; i < constant.ITEMCOUNT; i++ {
+		itemName = helper.SetItemName(i)
+		itemPrice = helper.SetInitialPrice(i)
+		itemQuantity = helper.GenerateRandomInteger(5, 20)
+		broker.Item[i] = Item(itemName, itemPrice, itemQuantity)
+	}
+
+	return broker
 }
 
 // MenuCommand constructor
