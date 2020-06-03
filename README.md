@@ -26,9 +26,9 @@ You are going to build an interactive game called tycoon. The game follows the i
 P.S. File and folder naming here is N/A due to the multiple file structuring!
 
 ### Basic data and processes in the game are:
-1. Available commodities to trade are: Silk, Silver, Gold, and Diamond.
-1. There is initial price of your choice, as long as initial silk price < silver price < gold price < diamond price. The trader can buy or sell any item at the given price.
-1. Initial account value should cover to buy at least 1 unit of silk and not more than 2 units of silver.
+1. Available commodities to trade are: Bronze, Silver, Gold, and Diamond.
+1. There is initial price of your choice, as long as initial bronze price < silver price < gold price < diamond price. The trader can buy or sell any item at the given price.
+1. Initial account value should cover to buy at least 1 unit of bronze and not more than 2 units of silver.
 1. The trader can keep unlimited number of cargo in his truck. The trader can only sell any item that he has in his truck. Initially his truck is empty.
 1. Ask and keep the player’s name. Time to time, the game should mention the player’s name in the comment.
 1. Except “Quit”, every command should be implemented as function or procedure.
@@ -44,41 +44,41 @@ P.S. File and folder naming here is N/A due to the multiple file structuring!
 
 ### Interaction Idea
 
-Some ideas of how interaction should look like (underlined texts are input):
+#### Some ideas of how interaction should look like (italic texts are input):
 
 **Welcome sir/mam, your name is?** _Rocky_
 **Rocky, as a startup, you’ve been given account 500. Trade wisely.**
 
 **[Day 1] What’s your command?** _show catalog_
-**Current commodity prices:
-silk 100
-silver 250
-gold 500
-diamond 1000**
+**Current commodity prices:**
+**Bronze 100**
+**Silver 250**
+**Gold 500**
+**Diamond 1000**
 
-[Day 2] What’s your command? buy 1 gold
-Buying 1 gold bought at 500? yes
+**[Day 2] What’s your command?** _buy 1 gold_
+**Buying 1 gold bought at 500?** _yes_
 
-[Day 3] What’s your command? buy 1 silver
-I am sorry, Rocky. You don’t have enough money.
+**[Day 3] What’s your command?** _buy 1 silver_
+**I am sorry, Rocky. You don’t have enough money.**
 
-[Day 4] What’s your command? show account
-Your balance is 0
-You have in your storage:
-0 silk
-0 silver
-1 gold, bought at 500
-0 diamond
-Thank you for your business. New price list has been issued.
+**[Day 4] What’s your command?** _show account_
+**Your balance is 0**
+**You have in your storage:**
+**0 silk**
+**0 silver**
+**1 gold, bought at 500**
+**0 diamond**
+**Thank you for your business. New price list has been issued.**
 
-[Day 5]	What’s your command? show catalog
-Current commodity prices (bid/offer):
-silk 115
-silver 225
-gold 575
-diamond 600
+**[Day 5] What’s your command?** _show catalog_
+**Current commodity prices (bid/offer):**
+**silk 115**
+**silver 225**
+**gold 575**
+**diamond 600**
 
-[Day 6]	What’s your command? quit
-Rocky, we liquidate all your asset.
-Your final asset value is 575.
-Apparently you win. 
+**[Day 6] What’s your command?** _quit_
+**Rocky, we liquidate all your asset.**
+**Your final asset value is 575.**
+**Apparently you win.**
