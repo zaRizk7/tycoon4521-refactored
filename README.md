@@ -3,26 +3,9 @@
 ### Problem:
 You are going to build an interactive game called tycoon. The game follows the idea of Taipan (https://en.wikipedia.org/wiki/Taipan!), which is a very popular game in 1980s. The player will take the role as a trader; buying, selling, travelling, looking for a better profit, etc.
 
-### Basic Tasks :
-1. The price should not change if the command “Show” is called.
-1. The price change should not be fixed at 25% up or 15% down, but in a range from 0-25% when up and 0-15% when down.
-1. Every simulation day, there is cost of living of 1 currency unit. i.e. The account balance is deducted by 1 unit currency.
-
-### Unfortunate Tasks:
-1. Sort the account balance from the lowest to the highest value using Insertion sort
-1. Ask the trader for particular account value:
-	1. Search using binary search
-	1. Print the day that account value is found/reached, or the last value checked if not found
-1. Print the maximum and the minimum account value.
-1. Print the difference final to initial account, and print WIN/LOST correspondingly
-
-### Task Options:
-1. Broker can’t always accept all selling request, depending on the broker warehouse availability. The warehouse availability for each item is set to be a random number between 1 to 100. It is set at the same time during price change.
-1. Two broker price list. The price changes differently. To change to either broker A or B use command: “Visit A” or “Visit B”
-
 ### Coding Rules:
 1. Follow the usual coding rules for labs and programming assignments!
-1. Folder/filename: tycoon####/tycoon####.go, where #### is the last 4 digits of your SID. eg. tycoon7563/tycoon7563.go
+1. Folder/filename: tycoon####/tycoon####.go, where #### is the last 4 digits of your SID. eg. tycoon7563/tycoon7563.go.
 **P.S. File and folder naming here is N/A due to the multiple file structuring!**
 
 ### Basic data and processes in the game are:
@@ -41,6 +24,23 @@ You are going to build an interactive game called tycoon. The game follows the i
 	1. “Show account” to show the current account and content of his truck
 	1. “Quit”, stop the program
 	1. The program ends when the player enter “Quit” or it has accepted 2018 buy/sell commands.
+
+### Task Options:
+1. Broker can’t always accept all selling request, depending on the broker warehouse availability. The warehouse availability for each item is set to be a random number between 1 to 100. It is set at the same time during price change.
+1. Two broker price list. The price changes differently. To change to either broker A or B use command: “Visit A” or “Visit B”
+	
+### Basic Tasks :
+1. The price should not change if the command “Show” is called.
+1. The price change should not be fixed at 25% up or 15% down, but in a range from 0-25% when up and 0-15% when down.
+1. Every simulation day, there is cost of living of 1 currency unit. i.e. The account balance is deducted by 1 unit currency.
+
+### Unfortunate Tasks:
+1. Sort the account balance from the lowest to the highest value using Insertion sort
+1. Ask the trader for particular account value:
+	1. Search using binary search
+	1. Print the day that account value is found/reached, or the last value checked if not found
+1. Print the maximum and the minimum account value.
+1. Print the difference final to initial account, and print WIN/LOST correspondingly
 
 ### Interaction Idea
 
