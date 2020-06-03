@@ -49,34 +49,22 @@ You are going to build an interactive game called tycoon. The game follows the i
 ##################################################################################################################################
 
 Basic data and processes in the game are:
-(1)		Available commodities to trade are: Silk, Silver, Gold, and Diamond.
-(2)		There is initial price of your choice, 
-		as long as initial silk price < silver price < gold price < diamond price. 
-		The trader can buy or sell any item at the given price.
-(3)		Initial account value should cover to buy at least 1 unit of silk and not more than 2 units of silver.
-(4)		The trader can keep unlimited number of cargo in his truck. 
-		The trader can only sell any item that he has in his truck. 
-		Initially his truck is empty.
-(5)		Ask and keep the player’s name. 
-		Time to time, 
-		the game should mention the player’s name in the comment.
-(6)		Except “Quit”, every command should be implemented as function or procedure.
-(7)		After calling the function/procedure, the game should change simulation day. 
-		By default it is one command or iteration per day. 
-		(It is as simple integer counter representing day, starting from day 1). 
-		See Basic Task Variations for more detail.
-(8)		At each simulation day, the price may change 50% of the time. 
-		When the price change, the probability of price is going up is 70% and is going down 30%. 
-		When the price going up, it is up by exactly 25% and if it is going down, it is down by exactly 15%. 
-		See Basic Task Variations and Task options for more detail.
-(9)		Available initial commands are (More commands should be available, depending on your task):
-		(1)	“Buy” units item, buy that many units of item at current price. Broker has as many items as the trader wants. 
-		(2)	“Sell” units item, sell that many units of item at current price (if there enough item in his truck)
-		(3)	“Show catalog” to show the current price list
-		(4)	“Show account” to show the current account and content of his truck
-		(5)	“Quit”, stop the program
-		(6)	The program ends when the player enter “Quit” or it has accepted 2018 buy/sell commands.
-
+(1) Available commodities to trade are: Silk, Silver, Gold, and Diamond.
+(2) There is initial price of your choice, as long as initial silk price < silver price < gold price < diamond price. The trader can buy or sell any item at the given price.
+(3) Initial account value should cover to buy at least 1 unit of silk and not more than 2 units of silver.
+(4) The trader can keep unlimited number of cargo in his truck. The trader can only sell any item that he has in his truck. Initially his truck is empty.
+(5) Ask and keep the player’s name. Time to time, the game should mention the player’s name in the comment.
+(6) Except “Quit”, every command should be implemented as function or procedure.
+(7) After calling the function/procedure, the game should change simulation day. By default it is one command or iteration per day. (It is as simple integer counter representing day, starting from day 1). See Basic Task Variations for more detail.
+(8) At each simulation day, the price may change 50% of the time. When the price change, the probability of price is going up is 70% and is going down 30%. When the price going up, it is up by exactly 25% and if it is going down, it is down by exactly 15%. See Basic Task Variations and Task options for more detail.
+(9) Available initial commands are (More commands should be available, depending on your task):
+	(1) “Buy” units item, buy that many units of item at current price. Broker has as many items as the trader wants. 
+	(2) “Sell” units item, sell that many units of item at current price (if there enough item in his truck)
+	(3) “Show catalog” to show the current price list
+	(4) “Show account” to show the current account and content of his truck
+	(5) “Quit”, stop the program
+	(6) The program ends when the player enter “Quit” or it has accepted 2018 buy/sell commands.
+	
 ##################################################################################################################################		
 
 Interaction Idea
